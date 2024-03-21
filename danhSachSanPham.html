@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="danhSachSanPham.css">
+    <script src="https://kit.fontawesome.com/0ff8c738e5.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Phần đầu trang web và menu-->
+    <header>
+        <div class="container-fluid top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-6"><a href="#"><img src="img/logo.png" alt="logo OOO Clothes"
+                                            style="width: 20px;"></a></div>
+                                <div class="col-6"><a href="index.html">oooclthes.com.vn</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2"></div>
+                    <div class="col-7">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-4 right-top-bar"><a href="#">Blog</a></div>
+                                <div class="col-4 right-top-bar"><a href="#">About</a></div>
+                                <div class="col-4"><a href="#">CSKH</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid khuyen-mai">
+            Ưu đãi dành cho bạn mới, <a href="#">
+                <img src="img/kham-pha-link.png" alt="" style="width: 130px; padding-bottom: 4px;">
+            </a>
+        </div>
+
+        <div class="container-fluid main-bar">
+            <div class="row main-bar-container">
+                <div class="col-3">
+                    <a href="index.html"><img src="img/logo.png" alt="logo OOO Clothes" class="logo"></a>
+                </div>
+                <div class="col-5">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-2" style="background-color: rgb(255, 38, 0);"><a href="#">SALE</a>
+                            </div>
+                            <div class="col-md-2 menu-bar"><a href="danhSachSanPham.html">SẢN PHẨM</a></div>
+                            <div class="col-md-2 menu-bar"><a href="#">THỂ THAO</a></div>
+                            <div class="col-md-2 menu-bar"><a href="#">ĐỒ LÓT</a></div>
+                            <div class="col-md-2 menu-bar"><a href="#">PHỤ KIỆN</a></div>
+                            <div class="col-md-2 menu-bar"><a href="#">IN LOGO</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div class="col-md-6 search-bar-container">
+                                    <div class="row">
+                                        <div class="col-sm-6" style="display: flex; text-align: center;">
+                                            <input class="search-box-input" type="text" placeholder="Tìm kiếm"
+                                                name="search">
+                                            <button class="search-box-btn" type="submit">
+                                                <i class="fa fa-search"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div class="col-6"><a href="#"><i class="fa-solid fa-bag-shopping"
+                                            style="font-size: 30px; width: 45px; height: 35px; border-radius: 50px;"></i></a>
+                                </div>
+                                <div class="col-6"><a href="#"><i class="fa-solid fa-user"
+                                            style="font-size: 30px; width: 45px; height: 35px; border-radius: 50px;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Dòng chữ chạy-->
+        <div class="container-fluid" style="background-color: #333; color: aliceblue;">
+            <marquee>
+                Mua càng nhiều - ưu đãi càng lớn. Giảm tới 10% tối đa 100.000 đồng cho lần mua hàng thứ hai.
+            </marquee>
+        </div>
+    </header>
+
+
+    <div class="container" style="margin-bottom: 50px;">
+        <div class="container-fluid">
+            <div class="row p-3">
+                <div class="col-6">
+                    <div style="font-size: 30px; font-weight: bold;">CÁC LOẠI MẶT HÀNG</div>
+                </div>
+                <div class="col-6">
+                    <div class="row" style="margin-top: 15px;">
+                        <div class="col-md-4" style="font-size: 15px; font-weight: bold;">Các bộ sưu tập theo mùa</div>
+                        <div class="col-md-8">
+                            <div class="row danhsach-bst" style="text-align: center;">
+                                <div class="col-3" style="background-color: rgb(252, 178, 191); padding: 5px;"><a
+                                        href="#">Xuân</a></div>
+                                <div class="col-3" style="background-color: yellow; padding: 5px;"><a href="#">Hè</a>
+                                </div>
+                                <div class="col-3" style="background-color: rgb(248, 120, 248); padding: 5px;"><a
+                                        href="#">Thu</a></div>
+                                <div class="col-3" style="background-color: rgb(90, 61, 255); padding: 5px;"><a
+                                        href="#">Đông</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3" style=" background-color: #b6b4b4;">
+                    <div style="font-size: 20px; font-weight: bold;">ÁO</div>
+                    <div class="row list-sp">
+                        <div class="col-md-4 col-3">
+                            <a href="#">Áo Thun</a>
+                        </div>
+                        <div class="col-md-4 col-3">
+                            <a href="#">Áo dài tay</a>
+                        </div>
+                        <div class="col-md-4 col-3">
+                            <a href="#">Áo Polo</a>
+                        </div>
+                        <div class="col-md-4 col-3">
+                            <a href="#">Áo Sơ Mi</a>
+                        </div>
+                        <div class="col-md-4 col-3">
+                            <a href="#">Áo Khoác</a>
+                        </div>
+                        <div class="col-md-4 col-3">
+                            <a href="#">Áo Tanktop</a>
+                        </div>
+                        <div class="col-md-4 col-3">
+                            <a href="#">Áo Thể Thao</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" style=" background-color: #c6c6c6;">
+                    <div style="font-size: 20px; font-weight: bold;">QUẦN</div>
+                    <div class="row">
+                        <div class="row list-sp">
+                            <div class="col-md-4 col-3">
+                                <a href="#">Quần Shorts</a>
+                            </div>
+                            <div class="col-md-4 col-3">
+                                <a href="#">Quần Jeans</a>
+                            </div>
+                            <div class="col-md-4 col-3">
+                                <a href="#">Quần Dài</a>
+                            </div>
+                            <div class="col-md-4 col-3">
+                                <a href="#">Quần Thể Thao</a>
+                            </div>
+                            <div class="col-md-4 col-3">
+                                <a href="#">Quần Lót</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" style=" background-color: #d9d5d5;">
+                    <div style="font-size: 20px; font-weight: bold;">THỂ THAO</div>
+                    <div class="row">
+                        <div class="row list-sp">
+                            <div class="col-md-4 col-3">
+                                <a href="#">Đồ Thể Thao chung</a>
+                            </div>
+                            <div class="col-md-4 col-3">
+                                <a href="#">Chạy Bộ</a>
+                            </div>
+                            <div class="col-md-4 col-3">
+                                <a href="#">Tập Gym</a>
+                            </div>
+                            <div class="col-md-4 col-3">
+                                <a href="#">Bóng Rổ</a>
+                            </div>
+                            <div class="col-md-4 col-3">
+                                <a href="#">Cầu Lông</a>
+                            </div>
+                            <div class="col-md-4 col-3">
+                                <a href="#">Tennis</a>
+                            </div>
+                            <div class="col-md-4 col-3">
+                                <a href="#">Bóng Đá</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" style=" background-color: #e6e3e3;">
+                    <div style="font-size: 20px; font-weight: bold;">PHỤ KIỆN</div>
+                    <div class="row">
+                        <div class="row list-sp">
+                            <div class="col-md-4 col-3">
+                                <a href="#">Kính</a>
+                            </div>
+                            <div class="col-md-4 col-3">
+                                <a href="#">Mũ</a>
+                            </div>
+                            <div class="col-md-4 col-3">
+                                <a href="#">Vòng Tay</a>
+                            </div>
+                            <div class="col-md-4 col-3">
+                                <a href="#">Đồng Hồ</a>
+                            </div>
+                            <div class="col-md-4 col-3">
+                                <a href="#">Nước Hoa</a>
+                            </div>
+                            <div class="col-md-4 col-3">
+                                <a href="#">Vòng Tay</a>
+                            </div>
+                            <div class="col-md-4 col-3">
+                                <a href="#">Thắt Lưng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row"></div>
+        </div>
+    </div>
+
+
+
+    <!--Chân trang-->
+    <footer>
+        <div class="container-fluid p-5" style="background-color: rgb(228, 227, 227);">
+            <p>Áo nam là một trong những trang phục phải có trong tủ đồ của bất kỳ ai. Thấu hiểu điều đó,
+                OOOClothes cho ra mắt top sản phẩm áo nam đáp ứng mọi nhu cầu hằng ngày của chàng.</p>
+            <h4>Lý do nên mua áo của OOOClothes?</h4>
+            <p>
+                Hướng đến sự tối giản, tiện lợi cho nam giới, áo nam OOOClothes mang phong cách thiết kế đơn giản, hiện
+                đại, dễ mặc, dễ phối với mọi hoàn cảnh.
+
+                Truy cập vào oooclothes.com.vn, bạn có thể dễ dàng xây dựng một tủ đồ nam giới với mức giá hợp lý. Với
+                1,1
+                triệu đơn hàng đã được giao đi (tính đến 2023), chính là minh chứng cho thấy khách hàng đã đánh giá cao
+                và tin yêu OOOClothes như thế nào.
+
+                Tất cả các sản phẩm áo nam OOOClothes đều được sản xuất bởi người Việt từ khâu thiết kế đến khâu hoàn
+                thiện sản phẩm. OOOClothes hợp tác với các nhà máy, xưởng uy tín tại Việt Nam như Thiên Sơn, Sơn Hà,
+                Nobland,... Sản phẩm luôn được đóng gói chắc chắn trong hộp giấy trước khi đến tay người tiêu dùng.
+            </p>
+        </div>
+
+
+
+        <div class="container-fluid bg-black">
+            <div class="container footer-style p-3">
+                <div class="row fist-row" style="border-bottom: 1px solid gray;">
+                    <div class="col-md-4 col-sm-12 p-3">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div style="font-size: 20px; font-weight: bold;">OOOCLOTHES luôn lắng nghe bạn!</div>
+                                <div style="font-size: 13px;">
+                                    Chúng tôi luôn trân trọng và mong đợi nhận được mọi ý kiến đóng góp từ khách hàng để
+                                    có
+                                    thể nâng cấp trải nghiệm dịch vụ và sản phẩm tốt hơn nữa.
+                                </div>
+                            </div>
+                            <div class="row">
+                                <button class="button-footer">Đóng góp ý kiến</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 p-3">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div>
+                                    <h4>Hotline</h4>0123456789
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div>
+                                    <h4>Email</h4>abc@email.com
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 p-3">
+                        <div class="container-fluid">
+                            <div class="row social-link">
+                                <div class="col-3">
+                                    <a href=""><i class="fa-brands fa-facebook-f fa-2xl"></i></a>
+                                </div>
+                                <div class="col-3">
+                                    <a href=""><i class="fa-brands fa-youtube fa-2xl"></i></a>
+                                </div>
+                                <div class="col-3">
+                                    <a href=""><i class="fa-brands fa-tiktok fa-2xl"></i></a>
+                                </div>
+                                <div class="col-3">
+                                    <a href=""><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row last-row">
+                    <div class="comtainer-fluid p-3">
+                        <p>
+                            @Tổng công ty TNHH 3 thành viên
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

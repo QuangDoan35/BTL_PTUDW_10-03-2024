@@ -20,7 +20,7 @@
     }
 }
 .khuyen-mai{
-    background-image: linear-gradient(to right, rgb(0, 34, 82),rgb(2, 54, 139),rgb(3, 69, 174),rgb(5, 145, 226),rgb(116, 187, 250));
+    background-color: #333;
     text-align: center;
     color: white;
     font-size: 15px;    
@@ -33,7 +33,7 @@
     padding: 20px;
 }
 .main-bar{
-    background-color: #0a0e2b;
+    background-image: linear-gradient(to right, rgb(0, 34, 82),rgb(2, 54, 139),rgb(3, 69, 174),rgb(5, 145, 226),rgb(116, 187, 250));
     text-align: center;
     font-size: 13px;
     color: white;
@@ -100,7 +100,7 @@ section{
     }
     img:hover{
         padding: 5px;
-        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
 }
 .buy-link {

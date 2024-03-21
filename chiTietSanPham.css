@@ -1,0 +1,14 @@
+.box-size{
+    a{
+        background-color: white;
+        border: 1px solid rgb(218, 218, 218);
+        padding: 5px;
+        text-decoration: none;
+        color: black;
+        border-radius: 2px;
+    }
+    a:hover{
+        background-color: black;
+        color: white;
+    }
+}
