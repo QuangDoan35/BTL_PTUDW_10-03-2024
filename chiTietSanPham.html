@@ -51,49 +51,35 @@
         </div>
 
         <div class="container-fluid main-bar">
-            <div class="row main-bar-container">
-                <div class="col-3">
-                    <a href="index.html"><img src="img/logo.png" alt="logo OOO Clothes" class="logo"></a>
-                </div>
-                <div class="col-5">
-                    <div class="container-fluid">
+            <div class="nav">
+                <div class="row p-2">
+                    <div class="col-md-1 col-sm-2"><a href="index.html"><img src="img/logo.png" alt="" class="logo"></a>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <ul>
+                            <li><a class="menu-list " href="#" style="background-color: red;">SALE</a></li>
+                            <li><a class="menu-list " href="danhSachSanPham.html">SẢN PHẨM</a></li>
+                            <li><a class="menu-list " href="#">THỂ THAO</a></li>
+                            <li><a class="menu-list " href="#">ĐỒ LÓT</a></li>
+                            <li><a class="menu-list " href="#">PHỤ KIỆN</a></li>
+                            <li><a class="menu-list " href="#">IN LOGO</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-12">
                         <div class="row">
-                            <div class="col-md-2" style="background-color: rgb(255, 38, 0);"><a href="#">SALE</a>
+                            <div class="search-container">
+                                <form action="/action_page.php">
+                                    <input type="text" placeholder="Tìm kiếm sản phẩm..." name="search"
+                                        class="search-box">
+                                    <button type="submit" class="search-btn"><i class="fa fa-search"></i></button>
+                                </form>
                             </div>
-                            <div class="col-md-2 menu-bar"><a href="danhSachSanPham.html">SẢN PHẨM</a></div>
-                            <div class="col-md-2 menu-bar"><a href="#">THỂ THAO</a></div>
-                            <div class="col-md-2 menu-bar"><a href="#">ĐỒ LÓT</a></div>
-                            <div class="col-md-2 menu-bar"><a href="#">PHỤ KIỆN</a></div>
-                            <div class="col-md-2 menu-bar"><a href="#">IN LOGO</a></div>
                         </div>
                     </div>
-                </div>
-                <div class="col-4">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="row">
-                                <div class="col-md-6 search-bar-container">
-                                    <div class="row">
-                                        <div class="col-sm-6" style="display: flex; text-align: center;">
-                                            <input class="search-box-input" type="text" placeholder="Tìm kiếm"
-                                                name="search">
-                                            <button class="search-box-btn" type="submit">
-                                                <i class="fa fa-search"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="row">
-                                <div class="col-6"><a href="#"><i class="fa-solid fa-bag-shopping"
-                                            style="font-size: 30px; width: 45px; height: 35px; border-radius: 50px;"></i></a>
-                                </div>
-                                <div class="col-6"><a href="#"><i class="fa-solid fa-user"
-                                            style="font-size: 30px; width: 45px; height: 35px; border-radius: 50px;"></i></a>
-                                </div>
-                            </div>
+                    <div class="col-md-2 col-12">
+                        <div class="row right-menu">
+                            <a href="#" class="menu-list">GIỎ HÀNG</a>
+                            <a href="#" class="menu-list">ĐĂNG NHẬP</a>
                         </div>
                     </div>
                 </div>
@@ -110,7 +96,7 @@
 
     <!--Chi tiết sản phẩm-->
     <div class="container">
-        <div class="row p-3">
+        <div class="row p-3" style="background-color: rgba(208, 208, 208, 0.278);">
             <div class="col-md-2 col-6">
                 <div class="row p-3">
                     <div class="col-6"><img src="img/chiTietSanPham/anhThuNho-1.avif" alt=""
@@ -139,12 +125,13 @@
                             <div style="font-size: 30px; font-weight: bold;">Áo Sơ Mi Extra Fine Cotton Ngắn Tay</div>
                         </div>
                         <div class="row">
-                            <div class="col-6">580.000 VND</div>
+                            <div class="col-6" style="font-weight: bold;">580.000 VND</div>
                             <div class="col-6" style="color: red;">78 lượt mua</div>
                         </div>
                         <div class="row"
                             style="margin-top: 50px; padding-bottom: 10px; border-bottom: 1px solid rgb(75, 75, 75);">
-                            <div>
+                            <div
+                                style="font-weight: bold; background-color: rgba(179, 179, 179, 0.616); padding: 10px; border-radius: 5px;">
                                 Chất liệu 100% cotton mềm mại với ánh sáng bóng sang trọng. Hoàn hảo để bạn có thể mặc
                                 riêng hoặc mặc như một lớp layer khoác ngoài.
                             </div>
@@ -192,13 +179,14 @@
                             </div>
                         </div>
                         <div class="row" style="margin-top: 20px;">
-                            <div class="col-4 buy-btn"
-                                style="background-color: red; text-align: center; padding: 5px; width: 150px;">
+                            <div class="col-4 buy-btn m-3"
+                                style="background-color: rgb(255, 43, 43); text-align: center; padding: 5px; width: 150px; border-radius: 5px;">
                                 <a href="" style="text-decoration: none; color: white; font-weight: bold;">MUA NGAY</a>
                             </div>
-                            <div class="col-8 add-btn"
-                                style="background-color: rgb(255, 204, 0); text-align: center; padding: 5px; width: 200px;">
-                                <a href="" style="text-decoration: none; color: white; font-weight: bold;">THÊM VÀO GIỎ HÀNG</a>
+                            <div class="col-4 add-btn m-3"
+                                style="background-color: rgb(0, 89, 255); text-align: center; padding: 5px; width: 200px; border-radius: 5px">
+                                <a href="" style="text-decoration: none; color: white; font-weight: bold;">THÊM VÀO GIỎ
+                                    HÀNG</a>
                             </div>
                         </div>
                     </div>
@@ -211,7 +199,7 @@
         <section>
             <div style="font-size: 30px; font-weight: bold;">Có thể bạn cũng thích</div>
 
-            <div class="row">
+            <div class="row p-3">
                 <div class="row card-style">
                     <div class="col-md-3 col-sm-6 col-6">
                         <div class="card">
@@ -471,111 +459,125 @@
                     </div>
                 </div>
             </div>
-        </div>
     </div>
-</section>
-            </div>
-        </section>
-
+    </div>
+    </section>
+    </div>
+    </section>
 
     </div>
 
-
-
-        <!--Chân trang-->
-        <footer>
-            <div class="container-fluid p-5" style="background-color: rgb(228, 227, 227);">
-                <p>Áo nam là một trong những trang phục phải có trong tủ đồ của bất kỳ ai. Thấu hiểu điều đó,
-                    OOOClothes cho ra mắt top sản phẩm áo nam đáp ứng mọi nhu cầu hằng ngày của chàng.</p>
-                <h4>Lý do nên mua áo của OOOClothes?</h4>
-                <p>
-                    Hướng đến sự tối giản, tiện lợi cho nam giới, áo nam OOOClothes mang phong cách thiết kế đơn giản,
-                    hiện
-                    đại, dễ mặc, dễ phối với mọi hoàn cảnh.
-
-                    Truy cập vào oooclothes.com.vn, bạn có thể dễ dàng xây dựng một tủ đồ nam giới với mức giá hợp lý.
-                    Với
-                    1,1
-                    triệu đơn hàng đã được giao đi (tính đến 2023), chính là minh chứng cho thấy khách hàng đã đánh giá
-                    cao
-                    và tin yêu OOOClothes như thế nào.
-
-                    Tất cả các sản phẩm áo nam OOOClothes đều được sản xuất bởi người Việt từ khâu thiết kế đến khâu
-                    hoàn
-                    thiện sản phẩm. OOOClothes hợp tác với các nhà máy, xưởng uy tín tại Việt Nam như Thiên Sơn, Sơn Hà,
-                    Nobland,... Sản phẩm luôn được đóng gói chắc chắn trong hộp giấy trước khi đến tay người tiêu dùng.
-                </p>
-            </div>
-
-
-            <div class="container-fluid bg-black">
-                <div class="container footer-style p-3">
-                    <div class="row fist-row" style="border-bottom: 1px solid gray;">
-                        <div class="col-md-4 col-sm-12 p-3">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div style="font-size: 20px; font-weight: bold;">OOOCLOTHES luôn lắng nghe bạn!
-                                    </div>
-                                    <div style="font-size: 13px;">
-                                        Chúng tôi luôn trân trọng và mong đợi nhận được mọi ý kiến đóng góp từ khách
-                                        hàng để
-                                        có
-                                        thể nâng cấp trải nghiệm dịch vụ và sản phẩm tốt hơn nữa.
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <button class="button-footer">Đóng góp ý kiến</button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-12 p-3">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div>
-                                        <h4>Hotline</h4>0123456789
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div>
-                                        <h4>Email</h4>abc@email.com
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-12 p-3">
-                            <div class="container-fluid">
-                                <div class="row social-link">
-                                    <div class="col-3">
-                                        <a href=""><i class="fa-brands fa-facebook-f fa-2xl"></i></a>
-                                    </div>
-                                    <div class="col-3">
-                                        <a href=""><i class="fa-brands fa-youtube fa-2xl"></i></a>
-                                    </div>
-                                    <div class="col-3">
-                                        <a href=""><i class="fa-brands fa-tiktok fa-2xl"></i></a>
-                                    </div>
-                                    <div class="col-3">
-                                        <a href=""><i class="fa-brands fa-instagram fa-2xl"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="row last-row">
-                        <div class="comtainer-fluid p-3">
-                            <p>
-                                @Tổng công ty TNHH 3 thành viên
-
-                            </p>
-                        </div>
+    <section>
+        <div class="contaier p-3" style="background-color: #333;">
+            <div class="row">
+                <div class="col-6">
+                    <img src="img/chiTietSanPham/banner-chiTietSanPham.png" alt="" style="width: 100%; border-radius: 10px;">
+                </div>
+                <div class="col-6">
+                    <div style="font-size: 20px; font-weight: bold; color: white;">Ngàn Ưu Đãi Đang Chờ Bạn</div>
+                    <div>
+                        <a href="#" style="color: rgb(255, 255, 255);">Quay Về Trang Chủ</a>
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
+    </section>
+
+
+    <!--Chân trang-->
+    <footer>
+        <div class="container-fluid p-5" style="background-color: rgb(228, 227, 227);">
+            <p>Áo nam là một trong những trang phục phải có trong tủ đồ của bất kỳ ai. Thấu hiểu điều đó,
+                OOOClothes cho ra mắt top sản phẩm áo nam đáp ứng mọi nhu cầu hằng ngày của chàng.</p>
+            <h4>Lý do nên mua áo của OOOClothes?</h4>
+            <p>
+                Hướng đến sự tối giản, tiện lợi cho nam giới, áo nam OOOClothes mang phong cách thiết kế đơn giản,
+                hiện
+                đại, dễ mặc, dễ phối với mọi hoàn cảnh.
+
+                Truy cập vào oooclothes.com.vn, bạn có thể dễ dàng xây dựng một tủ đồ nam giới với mức giá hợp lý.
+                Với
+                1,1
+                triệu đơn hàng đã được giao đi (tính đến 2023), chính là minh chứng cho thấy khách hàng đã đánh giá
+                cao
+                và tin yêu OOOClothes như thế nào.
+
+                Tất cả các sản phẩm áo nam OOOClothes đều được sản xuất bởi người Việt từ khâu thiết kế đến khâu
+                hoàn
+                thiện sản phẩm. OOOClothes hợp tác với các nhà máy, xưởng uy tín tại Việt Nam như Thiên Sơn, Sơn Hà,
+                Nobland,... Sản phẩm luôn được đóng gói chắc chắn trong hộp giấy trước khi đến tay người tiêu dùng.
+            </p>
+        </div>
+
+
+        <div class="container-fluid bg-black">
+            <div class="container footer-style p-3">
+                <div class="row fist-row" style="border-bottom: 1px solid gray;">
+                    <div class="col-md-4 col-sm-12 p-3">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div style="font-size: 20px; font-weight: bold;">OOOCLOTHES luôn lắng nghe bạn!
+                                </div>
+                                <div style="font-size: 13px;">
+                                    Chúng tôi luôn trân trọng và mong đợi nhận được mọi ý kiến đóng góp từ khách
+                                    hàng để
+                                    có
+                                    thể nâng cấp trải nghiệm dịch vụ và sản phẩm tốt hơn nữa.
+                                </div>
+                            </div>
+                            <div class="row">
+                                <button class="button-footer">Đóng góp ý kiến</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 p-3">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div>
+                                    <h4>Hotline</h4>0123456789
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div>
+                                    <h4>Email</h4>abc@email.com
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 p-3">
+                        <div class="container-fluid">
+                            <div class="row social-link">
+                                <div class="col-3">
+                                    <a href=""><i class="fa-brands fa-facebook-f fa-2xl"></i></a>
+                                </div>
+                                <div class="col-3">
+                                    <a href=""><i class="fa-brands fa-youtube fa-2xl"></i></a>
+                                </div>
+                                <div class="col-3">
+                                    <a href=""><i class="fa-brands fa-tiktok fa-2xl"></i></a>
+                                </div>
+                                <div class="col-3">
+                                    <a href=""><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row last-row">
+                    <div class="comtainer-fluid p-3">
+                        <p>
+                            @Tổng công ty TNHH 3 thành viên
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

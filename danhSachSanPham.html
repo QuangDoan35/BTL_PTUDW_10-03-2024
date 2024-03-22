@@ -51,190 +51,121 @@
         </div>
 
         <div class="container-fluid main-bar">
-            <div class="row main-bar-container">
-                <div class="col-3">
-                    <a href="index.html"><img src="img/logo.png" alt="logo OOO Clothes" class="logo"></a>
-                </div>
-                <div class="col-5">
-                    <div class="container-fluid">
+            <div class="nav">
+                <div class="row p-2">
+                    <div class="col-md-1 col-sm-2"><a href="index.html"><img src="img/logo.png" alt="" class="logo"></a></div>
+                    <div class="col-md-6 col-sm-12">
+                        <ul>
+                            <li><a class="menu-list " href="#" style="background-color: red;">SALE</a></li>
+                            <li><a class="menu-list " href="danhSachSanPham.html">SẢN PHẨM</a></li>
+                            <li><a class="menu-list " href="#">THỂ THAO</a></li>
+                            <li><a class="menu-list " href="#">ĐỒ LÓT</a></li>
+                            <li><a class="menu-list " href="#">PHỤ KIỆN</a></li>
+                            <li><a class="menu-list " href="#">IN LOGO</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-12">
                         <div class="row">
-                            <div class="col-md-2" style="background-color: rgb(255, 38, 0);"><a href="#">SALE</a>
+                            <div class="search-container">
+                                <form action="/action_page.php">
+                                    <input type="text" placeholder="Tìm kiếm sản phẩm..." name="search" class="search-box">
+                                    <button type="submit" class="search-btn"><i class="fa fa-search"></i></button>
+                                </form>
                             </div>
-                            <div class="col-md-2 menu-bar"><a href="danhSachSanPham.html">SẢN PHẨM</a></div>
-                            <div class="col-md-2 menu-bar"><a href="#">THỂ THAO</a></div>
-                            <div class="col-md-2 menu-bar"><a href="#">ĐỒ LÓT</a></div>
-                            <div class="col-md-2 menu-bar"><a href="#">PHỤ KIỆN</a></div>
-                            <div class="col-md-2 menu-bar"><a href="#">IN LOGO</a></div>
                         </div>
                     </div>
-                </div>
-                <div class="col-4">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="row">
-                                <div class="col-md-6 search-bar-container">
-                                    <div class="row">
-                                        <div class="col-sm-6" style="display: flex; text-align: center;">
-                                            <input class="search-box-input" type="text" placeholder="Tìm kiếm"
-                                                name="search">
-                                            <button class="search-box-btn" type="submit">
-                                                <i class="fa fa-search"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="row">
-                                <div class="col-6"><a href="#"><i class="fa-solid fa-bag-shopping"
-                                            style="font-size: 30px; width: 45px; height: 35px; border-radius: 50px;"></i></a>
-                                </div>
-                                <div class="col-6"><a href="#"><i class="fa-solid fa-user"
-                                            style="font-size: 30px; width: 45px; height: 35px; border-radius: 50px;"></i></a>
-                                </div>
-                            </div>
+                    <div class="col-md-2 col-12">
+                        <div class="row right-menu">
+                            <a href="#" class="menu-list" >GIỎ HÀNG</a>
+                            <a href="#" class="menu-list" >ĐĂNG NHẬP</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!--Dòng chữ chạy-->
-        <div class="container-fluid" style="background-color: #333; color: aliceblue;">
+        <div class="container-fluid" style="background-color: #333; color: rgb(255, 255, 255);">
             <marquee>
                 Mua càng nhiều - ưu đãi càng lớn. Giảm tới 10% tối đa 100.000 đồng cho lần mua hàng thứ hai.
             </marquee>
         </div>
     </header>
 
+    <div class="container-banner">
+        <img src="img/danhSachSanPham/banner-1.png" alt="" style="width: 100%;">
+    </div>
+
 
     <div class="container" style="margin-bottom: 50px;">
         <div class="container-fluid">
             <div class="row p-3">
                 <div class="col-6">
-                    <div style="font-size: 30px; font-weight: bold;">CÁC LOẠI MẶT HÀNG</div>
+                    <div style="font-size: 30px; font-weight: bold;  background-color: #0033a0c1; border-radius: 5px; padding: 5px; color: white;">CÁC LOẠI MẶT HÀNG</div>
                 </div>
                 <div class="col-6">
-                    <div class="row" style="margin-top: 15px;">
-                        <div class="col-md-4" style="font-size: 15px; font-weight: bold;">Các bộ sưu tập theo mùa</div>
-                        <div class="col-md-8">
-                            <div class="row danhsach-bst" style="text-align: center;">
-                                <div class="col-3" style="background-color: rgb(252, 178, 191); padding: 5px;"><a
-                                        href="#">Xuân</a></div>
-                                <div class="col-3" style="background-color: yellow; padding: 5px;"><a href="#">Hè</a>
-                                </div>
-                                <div class="col-3" style="background-color: rgb(248, 120, 248); padding: 5px;"><a
-                                        href="#">Thu</a></div>
-                                <div class="col-3" style="background-color: rgb(90, 61, 255); padding: 5px;"><a
-                                        href="#">Đông</a></div>
-                            </div>
+                    <div class="container-bo-suu-tap-theo-mua p-1" style="background-color: #0769d9; border-radius: 10px; box-shadow: rgba(173, 173, 173, 0.851) 0px 5px 15px;">
+                        <div style="font-weight: bold; background-color: rgb(255, 255, 255); border-radius: 20px; text-align: center;">Bộ Sưu Tập Theo Mùa</div>
+                        <div class="row" style="text-align: center;">
+                                <div class="col-md-3 col-6"><a href="#" style="color: rgb(0, 0, 0); font-weight: bold; border-radius: 20px; text-decoration: none ">Xuân</a></div>
+                                <div class="col-md-3 col-6"><a href="#" style="color: black; font-weight: bold; border-radius: 20px; text-decoration: none ">Hè</a></div>
+                                <div class="col-md-3 col-6"><a href="#" style="color: black; font-weight: bold; border-radius: 20px; text-decoration: none ">Thu</a></div>
+                                <div class="col-md-3 col-6"><a href="#" style="color: black; font-weight: bold; border-radius: 20px; text-decoration: none ">Đông</a></div>
                         </div>
                     </div>
                 </div>
             </div>  
 
-            <div class="row">
-                <div class="col-md-3" style=" background-color: #b6b4b4;">
-                    <div style="font-size: 20px; font-weight: bold;">ÁO</div>
-                    <div class="row list-sp">
-                        <div class="col-md-4 col-3">
-                            <a href="#">Áo Thun</a>
-                        </div>
-                        <div class="col-md-4 col-3">
-                            <a href="#">Áo dài tay</a>
-                        </div>
-                        <div class="col-md-4 col-3">
-                            <a href="#">Áo Polo</a>
-                        </div>
-                        <div class="col-md-4 col-3">
-                            <a href="#">Áo Sơ Mi</a>
-                        </div>
-                        <div class="col-md-4 col-3">
-                            <a href="#">Áo Khoác</a>
-                        </div>
-                        <div class="col-md-4 col-3">
-                            <a href="#">Áo Tanktop</a>
-                        </div>
-                        <div class="col-md-4 col-3">
-                            <a href="#">Áo Thể Thao</a>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-12 p-3">
+                        <div style="font-size: 30px; font-weight: bold; border-bottom: 2px solid black;">ÁO</div>
+                        <div class="container-conten">
+                            <ul>
+                                <li><a href="#">Tất Cả Áo Nam</a></li>
+                                <li><a href="#">Áo Thun</a></li>
+                                <li><a href="#">Áo Polo</a></li>
+                                <li><a href="#">Áo Dài Tay</a></li>
+                                <li><a href="#">Áo Sơ Mi</a></li>
+                                <li><a href="#">Áo Khoác</a></li>
+                                <li><a href="#">Áo Thể Thao</a></li>
+                                <li><a href="#">Áo Tanktop</a></li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-3" style=" background-color: #c6c6c6;">
-                    <div style="font-size: 20px; font-weight: bold;">QUẦN</div>
-                    <div class="row">
-                        <div class="row list-sp">
-                            <div class="col-md-4 col-3">
-                                <a href="#">Quần Shorts</a>
-                            </div>
-                            <div class="col-md-4 col-3">
-                                <a href="#">Quần Jeans</a>
-                            </div>
-                            <div class="col-md-4 col-3">
-                                <a href="#">Quần Dài</a>
-                            </div>
-                            <div class="col-md-4 col-3">
-                                <a href="#">Quần Thể Thao</a>
-                            </div>
-                            <div class="col-md-4 col-3">
-                                <a href="#">Quần Lót</a>
-                            </div>
+                    <div class="col-md-3 col-12 p-3">
+                        <div style="font-size: 30px; font-weight: bold; border-bottom: 2px solid black;">QUẦN</div>
+                        <div class="container-conten">
+                            <ul>
+                                <li><a href="#">Tất Cả Quần Nam</a></li>
+                                <li><a href="#">Quần Shorts</a></li>
+                                <li><a href="#">Quần Jeans</a></li>
+                                <li><a href="#">Quần Dài</a></li>
+                                <li><a href="#">QUần THể Thao</a></li>
+                                <li><a href="#">Quần Lót</a></li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-3" style=" background-color: #d9d5d5;">
-                    <div style="font-size: 20px; font-weight: bold;">THỂ THAO</div>
-                    <div class="row">
-                        <div class="row list-sp">
-                            <div class="col-md-4 col-3">
-                                <a href="#">Đồ Thể Thao chung</a>
-                            </div>
-                            <div class="col-md-4 col-3">
-                                <a href="#">Chạy Bộ</a>
-                            </div>
-                            <div class="col-md-4 col-3">
-                                <a href="#">Tập Gym</a>
-                            </div>
-                            <div class="col-md-4 col-3">
-                                <a href="#">Bóng Rổ</a>
-                            </div>
-                            <div class="col-md-4 col-3">
-                                <a href="#">Cầu Lông</a>
-                            </div>
-                            <div class="col-md-4 col-3">
-                                <a href="#">Tennis</a>
-                            </div>
-                            <div class="col-md-4 col-3">
-                                <a href="#">Bóng Đá</a>
-                            </div>
+                    <div class="col-md-3 col-12 p-3">
+                        <div style="font-size: 30px; font-weight: bold; border-bottom: 2px solid black;">ĐỒ THỂ THAO</div>
+                        <div class="container-conten">
+                            <ul>
+                                <li><a href="#">Thể Thao Chung</a></li>
+                                <li><a href="#">Bóng Đá</a></li>
+                                <li><a href="#">Tennis</a></li>
+                                <li><a href="#">Cầu Lông</a></li>
+                                <li><a href="#">Chạy Bộ</a></li>
+                                <li><a href="#">Gym</a></li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-3" style=" background-color: #e6e3e3;">
-                    <div style="font-size: 20px; font-weight: bold;">PHỤ KIỆN</div>
-                    <div class="row">
-                        <div class="row list-sp">
-                            <div class="col-md-4 col-3">
-                                <a href="#">Kính</a>
-                            </div>
-                            <div class="col-md-4 col-3">
-                                <a href="#">Mũ</a>
-                            </div>
-                            <div class="col-md-4 col-3">
-                                <a href="#">Vòng Tay</a>
-                            </div>
-                            <div class="col-md-4 col-3">
-                                <a href="#">Đồng Hồ</a>
-                            </div>
-                            <div class="col-md-4 col-3">
-                                <a href="#">Nước Hoa</a>
-                            </div>
-                            <div class="col-md-4 col-3">
-                                <a href="#">Vòng Tay</a>
-                            </div>
-                            <div class="col-md-4 col-3">
-                                <a href="#">Thắt Lưng</a>
-                            </div>
+                    <div class="col-md-3 col-12 p-3">
+                        <div style="font-size: 30px; font-weight: bold; border-bottom: 2px solid black;">PHỤ KIỆN NAM</div>
+                        <div class="container-conten">
+                            <ul>
+                                <li><a href="#">Tất Cả Phụ Kiện</a></li>
+                                <li><a href="#">Tất / Vớ</a></li>
+                                <li><a href="#">Mũ / Nón</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -243,6 +174,23 @@
             <div class="row"></div>
         </div>
     </div>
+
+
+    <section>
+        <div class="contaier p-3" style="background-color: #333;">
+            <div class="row">
+                <div class="col-6">
+                    <img src="img/danhSachSanPham/banner-2.avif" alt="" style="width: 100%; border-radius: 10px;">
+                </div>
+                <div class="col-6">
+                    <div style="font-size: 20px; font-weight: bold; color: white;">SINH NHẬT TẶNG QUÀ</div>
+                    <div>
+                        <a href="#" style="color: rgb(255, 255, 255);">Khám Phá Ngay</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
