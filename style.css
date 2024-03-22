@@ -28,55 +28,73 @@
     a{
         color: white;
     }
+
+/*Main bar*/
+}.main-bar {
+    background-image: linear-gradient(to right, rgb(1, 25, 58), rgb(1, 42, 101), rgb(0, 53, 128),rgb(3, 76, 180),rgb(4, 87, 203));
 }
-.main-bar-container{
-    padding: 20px;
+
+.logo {
+    width: 100px;
 }
-.main-bar{
-    background-image: linear-gradient(to right, rgb(0, 34, 82),rgb(2, 54, 139),rgb(3, 69, 174),rgb(5, 145, 226),rgb(116, 187, 250));
-    text-align: center;
-    font-size: 13px;
-    color: white;
-    font-weight: bold;
-    a{
-        color: rgb(255, 255, 255);
-        text-decoration: none;
-    }
-    .menu-bar:hover{
-        background-color: #c1c1c172;
-    }
-    .logo{
-        width: 80px;
-    }
-}
-/*CSS cho thanh tìm kiếm*/
-.search-bar-container
-{
+
+.nav {
+    display: inline-block;
     width: 100%;
-    .search-box-input{
-        border: none;
-        width: 100%;
-        padding: 10px;
-        padding-left: 35px;
-        border-radius: 20px;
-        border: none;
+    text-align: center;
+
+    ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 5px;
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        padding: 5px 15px;
+    }
+
+    a:hover {
         background-color: aliceblue;
+        color: black;
+    }
+
+    .right-menu{
+        font-weight: bold;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            color: black;
+        }
+    }
+
+    .search-container{
         margin-bottom: 10px;
-        outline: none;
-        position: relative;
-    }
-  
-    .search-box-btn{
-        border-radius: 50px;
-        border: none;
-        font-size: large;
-        background-color: aliceblue;
-        margin: 5px;
+        .search-box{
+            border: none;
+            border-radius: 20px;
+            padding-left: 10px;
+        }
+        .search-box:focus{
+            outline: none;
+            background-color: rgba(187, 243, 255, 0.655);
+            color: ;
+        }
+        .search-btn{
+            border: none;
+            border-radius: 50px;
+            background-color: rgba(255, 255, 255, 0.867);
+            :hover{
+                color: rgba(63, 99, 255, 0.8);
+            }
+        }
     }
 }
-.search-bar-container .search-box-btn {
-    position: absolute; /* Đảm bảo nút tìm kiếm được định vị tuyệt đối trong phần tử cha .search-bar-container */
-}
+
 
 /*section*/
 section{
