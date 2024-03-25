@@ -106,19 +106,20 @@ section{
     border-bottom: 2px solid #333;
     font-weight: bold;
 }
+/*CSS cho các thẻ card chứa nội dung của mặt hàng*/
 .card-style .card{
-    margin: 10px 0;
-    border: none;
+    margin: 10px 0;/*Căn chỉnh trên dưới giữa các card là 10px, trái phải là 0*/
+    border: none;/*Chỉnh card không có viền*/
     img{
-        border-radius: 5px;
+        border-radius: 5px;/*Chỉnh bo tròn góc cho ảnh sản phẩm*/
     }
     a{
-        text-decoration: none;
-        color: black;
+        text-decoration: none;/*Xóa dấu gạch chân của thẻ a*/
+        color: black;/*Màu chữ là đen*/
     }
-    img:hover{
+    img:hover{/*Chỉnh khi di chuột vào ảnh sản phẩm thì viền của ảnh to ra*/
         padding: 5px;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;/*Tạo bóng cho ảnh sản phẩm khi di chuột vào*/
     }
 }
 .buy-link {
